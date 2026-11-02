@@ -1,0 +1,21 @@
+To run it on your machine:
+
+Run pip install -r requirements.txt.
+Run python -m sfresearch probe. It shows which Sofascore endpoints respond from your network, so run it before anything else.
+Run python -m sfresearch collect --limit 20 for a 20-match trial.
+Run python -m sfresearch collect for the full run.
+
+The full run takes hours but resumes if interrupted, and it backs off or stops if Sofascore blocks you.
+
+Player id: 750 is only my recollection of Ronaldo’s Sofascore id. collect checks the player’s name and stops if it doesn’t match.
+Missing stats: old matches will often have no lineup stats or ratings. report shows those gaps per season.
+Terms of service: Sofascore doesn’t license API access, and its terms may forbid scraping. Keep it to personal research, keep the default delays, and don’t redistribute the data.
+Comparison players: search "Lionel Messi" finds a player’s id. Running collect for them with --out set to their own folder gives you CSVs with the same columns.
+
+
+
+python -m sfresearch probe --transport playwright
+
+python -m sfresearch probe --impersonate chrome131
+
+--delay-min 4 --delay-max 8

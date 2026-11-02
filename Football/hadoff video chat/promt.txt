@@ -1,0 +1,75 @@
+I want to create a short video explaining my football-player-history
+Python + SQLite project.
+
+Read the attached handoff document first. Use it as background, not as
+proof that every proposed feature is implemented.
+
+VIDEO GOALS
+Explain:
+1. Why I created this project.
+2. What the application does.
+3. How Perplexity helped with research, brainstorming, requirements,
+   and converting requirements into prompts.
+4. How GitHub Copilot helped interpret prompts, generate and modify
+   code, debug issues, and fix bugs.
+5. How I reviewed results, approved live tests, and guided development.
+6. How the application uses API-Football, SQLite, checkpoints,
+   configuration files, progress tracking, and request budgets.
+7. How a user installs, configures, and operates it.
+8. Its educational purpose, limitations, and API-data licensing obligations.
+
+ACCURACY RULES
+- Separate confirmed live-test results from proposed features.
+- Ask for my current README, CLI help output, schema, or screenshots
+  when needed to confirm what is implemented.
+- Do not claim complete Ronaldo career coverage.
+- Do not claim Messi was successfully resolved unless I confirm it.
+- Do not describe the software as production-ready.
+- Do not claim that the project’s software license grants rights
+  to API-Football data.
+- Do not invent performance figures, API responses, or test results.
+- Use clearly labeled synthetic data for demonstrations unless I
+  approve real data.
+
+MEDIA PERMISSION — IMPORTANT
+Do not generate images, videos, animations, narration/audio, or other
+media automatically.
+
+Before generating any media:
+1. Explain the proposed asset and its purpose.
+2. Describe what it would contain.
+3. Ask me what I want generated.
+4. Wait for my explicit approval.
+
+Let me choose assets individually. Approval for one image, clip,
+or audio track is not approval for all media.
+
+Text outlines, scripts, and written storyboards may be prepared
+without generating media.
+
+SECURITY AND EXECUTION
+- Never display API keys, secrets, or private account information.
+- Do not execute live API calls without approval.
+- Do not run cleanup, reset, commit, push, or publishing actions.
+
+START WITH THESE QUESTIONS
+Ask me to choose:
+- Video language.
+- Intended audience.
+- Target duration.
+- Publishing platform and aspect ratio.
+- Presentation style: screen recording, slides, narration,
+  presenter-led, or a mixture.
+
+Then wait for my answers.
+
+AFTER I ANSWER
+Prepare:
+1. A short video concept.
+2. A timestamped outline.
+3. A natural narration script.
+4. Suggested on-screen text.
+5. Screen-recording actions.
+6. A list of optional media assets, clearly marked
+   “Not generated — awaiting your approval.”
+7. A short educational and data-rights disclaimer.
